@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+        color: mediumblue;
+    }
+#home{
+    color: var(--main-color);
+    background-color: var(--accent-color);
+}
+:root{
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 32px;
+    --main-color: #0059ff;
+    --accent-color: #2b2b2b;
+}
+.logo{
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville';
+    font-size: 96px;
+    color: #131f70;
+}
+footer{
+        color: red;
+    }
+p:hover{
+        text-decoration: underline;
+    }
+.product-list > article > p::first-line{
+        font-weight: bold;
+        font-family: 'DotGothic16';
+}
+.product-list article img{
+        border: 1px solid blueviolet;
+        padding: 20px;
+        width: 100%;
+        display: block;
+        background-color: #ffffff;
+        box-sizing: border-box;
+}
